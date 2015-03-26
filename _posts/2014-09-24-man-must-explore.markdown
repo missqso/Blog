@@ -16,6 +16,7 @@ header-img: "img/post-bg-06.jpg"
 安装过程没有什么特别的
 
 ---
+
 ### 安装 Ruby
 
 前往 http://rubyinstaller.org/downloads/ 下载 Ruby
@@ -30,6 +31,7 @@ Ruby 包含了 RubyGems ，RubyGems 是一个方便而强大的Ruby程序包管�
     ruby 2.0.0p451 (2014-02-24) [x64-mingw32]
 
 ---
+
 ### 安装 Ruby DevKit  
 
 前往 http://rubyinstaller.org/downloads/ 下载 Ruby Devkit，注意对应 Ruby 的相关版本
