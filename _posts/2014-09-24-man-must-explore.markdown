@@ -51,10 +51,12 @@ ruby dk.rb init
 
 这将会在 RubyDevkit 的目录中生成一个`config.yml`，打开它，指定 Ruby 的安装位置
 
+
 ```
 ---
 - C:/Ruby21-x64
 ```
+
 
 我这里安装的是 Ruby 2.1.5 具体目录名字会不一样
 开始安装Ruby DevKit ，将其绑定到 Ruby 
