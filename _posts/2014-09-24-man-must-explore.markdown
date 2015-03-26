@@ -84,7 +84,7 @@ bundler 通过项目文件夹内的 gemfile 管理项目所需要的 gem ，在�
 >> install rack 或 bundle install 的时候半天没有响应，具体可以用 gem install rails -V
 >> 来查看执行过程。
 >如何更换 ？  
->~~~ruby
+>~~~ ruby
 >$ gem sources --remove https://rubygems.org/  
 >$ gem sources -a https://ruby.taobao.org/  
 >$ gem sources -l  
