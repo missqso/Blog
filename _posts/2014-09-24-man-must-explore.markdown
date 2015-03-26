@@ -15,19 +15,20 @@ header-img: "img/post-bg-06.jpg"
 安装过程没有什么特别的
 
 ---
-###安装 Ruby
+### 安装 Ruby  
 前往 http://rubyinstaller.org/downloads/ 下载 Ruby
 安装中记得勾选“**Add Ruby executables to your PATH**”
 Ruby 包含了 RubyGems ，RubyGems 是一个方便而强大的Ruby程序包管理器
 打开一个命令提示行并输入以下命令来检测 Ruby 是否成功安装
 
     ruby -v
-输出示例
+
+输出示例  
 
     ruby 2.0.0p451 (2014-02-24) [x64-mingw32]
 
 ---
-###安装 Ruby DevKit
+### 安装 Ruby DevKit  
 前往 http://rubyinstaller.org/downloads/ 下载 Ruby Devkit，注意对应 Ruby 的相关版本
 下载得到的是一个压缩包，将其解压到`C:\RubyDevKit`
 打开第一步中安装的 **Git Shell** 
@@ -53,7 +54,7 @@ ruby dk.rb install
 
 ---
 
-###安装 bundler
+### 安装 bundler  
 bundler 通过项目文件夹内的 gemfile 管理项目所需要的 gem ，在我们这个项目里，我们需要 jekyll / rouge / wdm 这三个 gem。
 > 使用`bundle show [gemname]`可以查询 gem 在本地安装的位置
 ####[更换 Ruby Gems 镜像](https://ruby.taobao.org/)
@@ -73,7 +74,7 @@ bundler 通过项目文件夹内的 gemfile 管理项目所需要的 gem ，在�
 >https://ruby.taobao.org
 > # 请确保只有 ruby.taobao.org
 >```
-####正式安装 bundler
+#### 正式安装 bundler  
 执行安装命令
 
     gem install bundler
@@ -90,7 +91,7 @@ jekyll 是作为一个 gem 存在的，所以只需要通过 gem 执行命令即
 
 ---
 
-###安装 Rouge  （当前可选）
+### 安装 Rouge  （当前可选）  
 无论是你用 markdown 或者是 html ，jekyll 都可以在你的页面中插入漂亮的代码块。
 默认情况下， jekyll 自带 pygments.rb ，这是一个基于 python 的语法高亮显示器，要在 windows 上使用的话，还得安装 python ，会比较麻烦。
 另一个不错的选择是基于 Ruby 的 Rouge ，它更快而且更加易于安装，只是支持的语言没有 pygments 那么多，具体选择可以考虑一下。
@@ -104,7 +105,7 @@ jekyll 是作为一个 gem 存在的，所以只需要通过 gem 执行命令即
 
 ---
 
-###安装 wdm （当前可选）
+### 安装 wdm （当前可选）  
 jekyll 有一个内置的自动更新功能，监控源文件夹的变化，然后更新你的网站。
 从 jekyll 2.4.0 开始，`jekyll server`命令默认启用这项设定。或者使用`jekyll build --watch`去手动启用它。
 wdm 全称 **Windows Directory Monitor** ，使用它似乎可以避免轮询（rolling，一种低效率的监控变化的方式）
@@ -115,7 +116,7 @@ wdm 全称 **Windows Directory Monitor** ，使用它似乎可以避免轮询（
 
 ---
 
-#创建 jekyll 网站
+# 创建 jekyll 网站  
 ###生成 Gemfile 文件
 这个时候所有的环境已经配置好了，可以开始建立 jekyll 网站了
 ```
