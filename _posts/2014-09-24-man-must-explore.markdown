@@ -42,7 +42,9 @@ Ruby 包含了 RubyGems ，RubyGems 是一个方便而强大的Ruby程序包管�
 ```
 cd C:\RubyDevKit
 ```
+
 初始化
+
 ```
 ruby dk.rb init
 ```
@@ -66,7 +68,9 @@ ruby dk.rb install
 ### 安装 bundler 
 
 bundler 通过项目文件夹内的 gemfile 管理项目所需要的 gem ，在我们这个项目里，我们需要 jekyll / rouge / wdm 这三个 gem。
+
 > 使用`bundle show [gemname]`可以查询 gem 在本地安装的位置
+
 ####[更换 Ruby Gems 镜像](https://ruby.taobao.org/)
 由于国内的封锁，导致 bundler 安装失败，所以更换 Ruby Gems 镜像
 > 为什么有这一步
