@@ -69,8 +69,7 @@ ruby dk.rb install
 
 ### 安装 bundler 
 
-bundler 通过项目文件夹内的 gemfile 管理项目所需要的 gem ，在我们这个项目里，我们需要 jekyll / rouge / wdm 这三个 gem。
-
+bundler 通过项目文件夹内的 gemfile 管理项目所需要的 gem ，在我们这个项目里，我们需要 jekyll / rouge / wdm 这三个 gem。  
 
 > 使用`bundle show [gemname]`可以查询 gem 在本地安装的位置
 
