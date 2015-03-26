@@ -80,6 +80,7 @@ bundler 通过项目文件夹内的 gemfile 管理项目所需要的 gem ，在�
 由于国内的封锁，导致 bundler 安装失败，所以更换 Ruby Gems 镜像
 
 > 为什么有这一步  
+
 >> 由于国内网络原因（你懂的），导致 rubygems.org 存放在 Amazon S3 上面的资源文件间歇性连接失败。所以你会与遇到 gem  
 >> install rack 或 bundle install 的时候半天没有响应，具体可以用 gem install rails -V  
 >> 来查看执行过程。  
