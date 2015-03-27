@@ -62,7 +62,7 @@ desc "Push to github"
 task :push do
     puts "Pushing to 'gh-pages' branch:"
     system "git add -A"
-    system "git commit -m 'test'"
+    system "git commit -m 'update at #{Time.now.utc}'"
     system "git push origin gh-pages"
     puts "'gh-pages' branch updated."
   end

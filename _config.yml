@@ -7,7 +7,7 @@ baseurl: "/blog"
 url: "http://yourdomain.com"
 twitter_username: ltscnrm
 github_username:  missqso
-facebook_username:  graykx
+facebook_username: graykx
 
 # Build settings
 markdown: kramdown
