@@ -13,7 +13,7 @@ header-img: "img/post-bg-06.jpg"
 ### 安装 git
 
 前往 https://windows.github.com/ 下载 git 
-安装过程没有什么特别的
+安装过程没有什么特别的 
 
 ---
 
