@@ -60,10 +60,9 @@ end
 
 desc "Push to github"
 task :push do
-commit=ENV["commit"]||"update"
     puts "Pushing to 'gh-pages' branch:"
     system "git add -A"
-    system "git commit -m '#{commit}'"
+    system "git commit -m 'update post'"
     system "git push origin gh-pages"
     puts "'gh-pages' branch updated."
   end
