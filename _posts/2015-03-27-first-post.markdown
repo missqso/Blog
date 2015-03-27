@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "jekyll on github pages 部署记录"
-subtitle:   "Problems look mighty small from 150 miles up"
+subtitle:   "第一次部署记录"
 date:       2015-03-27 00:59:00
 author:     "nuaawao"
 header-img: "img/post-bg-06.jpg"
