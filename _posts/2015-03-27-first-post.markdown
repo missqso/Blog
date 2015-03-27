@@ -24,11 +24,11 @@ header-img: "img/post-bg-06.jpg"
 Ruby 包含了 RubyGems ，RubyGems 是一个方便而强大的Ruby程序包管理器
 打开一个命令提示行并输入以下命令来检测 Ruby 是否成功安装
 
-    ruby -v
+    $ ruby -v
 
 输出示例  
 
-    ruby 2.0.0p451 (2014-02-24) [x64-mingw32]
+    $ ruby 2.0.0p451 (2014-02-24) [x64-mingw32]
 
 ---
 
@@ -71,23 +71,28 @@ ruby dk.rb install
 
 bundler 通过项目文件夹内的 gemfile 管理项目所需要的 gem ，在我们这个项目里，我们需要 jekyll / rouge / wdm 这三个 gem。  
 
-> 使用`bundle show [gemname]`可以查询 gem 在本地安装的位置
+> 使用 `bundle show [gemname]` 可以查询 gem 在本地安装的位置
 
 
 ####[更换 Ruby Gems 镜像](https://ruby.taobao.org/)
 
 由于国内的封锁，导致 bundler 安装失败，所以更换 Ruby Gems 镜像  
   
-> 为什么有这一步  
+> 为什么有这一步
 > > 由于国内网络原因（你懂的），导致 rubygems.org 存放在 Amazon S3 上面的资源文件间歇性连接失败。所以你会与遇到 gem install rack 或 bundle install 的时候半天没有响应，具体可以用 gem install rails -V 来查看执行过程。  
 > 如何更换？  
-> ```  
+> ```
 > $ gem sources --remove https://rubygems.org/  
+
 > $ gem sources -a https://ruby.taobao.org/  
-> $ gem sources -l    
-> *** CURRENT SOURCES ***    
-> https://ruby.taobao.org   
-> # 请确保只有 ruby.taobao.org    
+
+> $ gem sources -l  
+
+> *** CURRENT SOURCES ***  
+
+> https://ruby.taobao.org  
+
+> # 请确保只有 ruby.taobao.org
 > ```
 
 
