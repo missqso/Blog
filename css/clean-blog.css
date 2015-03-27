@@ -1,24 +1,32 @@
 body {
   font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   color: #404040;
 }
 p {
-  line-height: 1.5;
-  margin: 30px 0;
+  line-height: 1.7;
+  margin: 19px 0;
 }
 p a {
   text-decoration: underline;
 }
-h1,
-h2,
+h1{
+  font-family:  Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
+  font-weight: 800;
+}
+h2 {
+  font-family:  Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
+  font-weight: 600;
+}
+
 h3,
 h4,
 h5,
 h6 {
   font-family:  Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
-  font-weight: 800;
+  font-weight: 500;
 }
+
 a {
   color: #404040;
 }
@@ -32,7 +40,7 @@ a img:focus {
 }
 blockquote {
   color: #808080;
-  font-style: italic;
+  font-style: normal;
 }
 hr.small {
   max-width: 100px;
@@ -183,7 +191,7 @@ hr.small {
   display: block;
 }
 .intro-header .post-heading .subheading {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family:  Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
   font-size: 24px;
   margin: 10px 0 30px;
   font-weight: 600;
